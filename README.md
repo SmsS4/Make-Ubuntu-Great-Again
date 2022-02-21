@@ -1,16 +1,11 @@
 # Make-Ubuntu-Great-Again
 
-## Update
-```bash
-sudo apt update
-```
-
 ## VM & Wine
 ```bash
 sudo apt install wine-development
 # virtualbox
-sudo apt install virtualbox
-sudo apt install install virtualbox-dkms
+sudo apt install -y virtualbox
+sudo apt install -y install virtualbox-dkms
 ```
 
 ## Utils
@@ -39,6 +34,7 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
 ```bash
 sudo apt install ipython
 sudo apt install nox
+# pycharm
 sudo snap install pycharm-community --classic
 # poetry
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
