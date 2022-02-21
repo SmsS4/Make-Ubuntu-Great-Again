@@ -1,5 +1,7 @@
 # Make-Ubuntu-Great-Again
 
+# Packages
+
 ## VM & Wine
 ```bash
 sudo apt install wine-development
@@ -102,4 +104,16 @@ sudo apt install vlc
 sudo apt install telegram-desktop
 sudo snap install slack --classic
 sudo snap install discord
+```
+
+# Configs
+
+## Make Shift+NumPad work like Windows
+open `/etc/default/keyboard` and change
+```
+XKBOPTIONS=""
+```
+to
+```
+XKBOPTIONS="numpad:microsoft"
 ```
