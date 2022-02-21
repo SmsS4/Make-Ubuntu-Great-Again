@@ -8,7 +8,7 @@ class Package:
     commands: List[str]
     category: str
     def get_install(self):
-        return '// \n'.join(
+        return '\n'.join(
             [f'echo "installing {self.name}"']
             + self.commands
             + [f'echo "installed {self.name}"']

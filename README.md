@@ -32,6 +32,7 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
 
 ## Python
 ```bash
+sudo apt install python-is-python3
 sudo apt install ipython
 sudo apt install nox
 # pycharm
