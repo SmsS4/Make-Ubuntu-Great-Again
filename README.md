@@ -97,6 +97,7 @@ sudo apt install steam
 ## Media
 ```bash
 sudo apt install vlc
+sudo apt install mpv
 ```
 
 ## Social
