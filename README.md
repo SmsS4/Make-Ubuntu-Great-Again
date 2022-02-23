@@ -17,6 +17,8 @@ sudo apt install sshuttle
 sudo apt install ncdu
 sudo apt install tmux
 sudo apt install terminator
+sudo apt install htop
+sudo apt install dstat
 ```
 
 ## Web
