@@ -110,14 +110,15 @@ sudo apt install mpv
 ## Social
 ```bash
 sudo snap install telegram-desktop
-
 sudo snap install slack --classic
 sudo snap install discord
 ```
 
 # Configs
 
-## Make Shift+NumPad work like Window
+## Make Shift+NumPad work like Windows
 ```bash
-cat /etc/default/keyboard | sed 's/XKBOPTIONS="\(.*\)"/XKBOPTIONS="numpad:microsoft,\1"/g's
+sed -i /etc/default/keyboard 's/XKBOPTIONS="\(.*\)"/XKBOPTIONS="numpad:microsoft,\1"/g'
+# to check
+echo /etc/default/keyboard
 ```
