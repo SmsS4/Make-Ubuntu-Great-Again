@@ -110,11 +110,6 @@ sudo snap install discord
 # Configs
 
 ## Make Shift+NumPad work like Windows
-open `/etc/default/keyboard` and change
-```
-XKBOPTIONS=""
-```
-to
-```
-XKBOPTIONS="numpad:microsoft"
+```bash
+cat /etc/default/keyboard | sed -i 's/XKBOPTIONS="\(.*\)"/XKBOPTIONS="numpad:microsoft,\1"/g's
 ```
