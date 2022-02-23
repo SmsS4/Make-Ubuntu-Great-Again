@@ -32,6 +32,11 @@ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trust
               sudo apt update && sudo apt install ngrok   
 ```
 
+## Rust
+```bash
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+
 ## Python
 ```bash
 sudo apt install python-is-python3
@@ -102,7 +107,7 @@ sudo apt install mpv
 
 ## Social
 ```bash
-sudo apt install telegram-desktop
+sudo snap install telegram-desktop
 sudo snap install slack --classic
 sudo snap install discord
 ```
