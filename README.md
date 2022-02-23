@@ -101,7 +101,8 @@ sudo apt install vlc
 
 ## Social
 ```bash
-sudo apt install telegram-desktop
+sudo snap install telegram-desktop
+
 sudo snap install slack --classic
 sudo snap install discord
 ```
