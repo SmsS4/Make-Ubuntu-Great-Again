@@ -11,7 +11,7 @@ sudo apt install python3-dev python3-pip python3-setuptools && pip3 install thef
 # Zsh
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# Autojumpy
+# Autojump (https://github.com/wting/autojump)
 cd /tmp && git clone git://github.com/wting/autojump.git && cd autojump && ./install.py
 echo '[[ -s /home/smss/.autojump/etc/profile.d/autojump.sh ]] && source /home/smss/.autojump/etc/profile.d/autojump.sh
         autoload -U compinit && compinit -u
