@@ -2,6 +2,23 @@
 
 # Packages
 
+## Terminal
+```bash
+sudo apt install tmux
+sudo apt install terminator
+# The fuck (https://github.com/nvbn/thefuck)
+sudo apt install python3-dev python3-pip python3-setuptools && pip3 install thefuck --user
+# Zsh
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Autojumpy
+cd /tmp && git clone git://github.com/wting/autojump.git && cd autojump && ./install.py
+echo '[[ -s /home/smss/.autojump/etc/profile.d/autojump.sh ]] && source /home/smss/.autojump/etc/profile.d/autojump.sh
+        autoload -U compinit && compinit -u
+' >> ~/.zshrc
+exec $SHELL
+```
+
 ## VM & Wine
 ```bash
 sudo apt install wine-development
@@ -15,8 +32,6 @@ sudo apt install -y install virtualbox-dkms
 sudo apt install xclip
 sudo apt install sshuttle
 sudo apt install ncdu
-sudo apt install tmux
-sudo apt install terminator
 sudo apt install htop
 sudo apt install dstat
 ```
