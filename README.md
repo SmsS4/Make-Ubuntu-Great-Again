@@ -20,6 +20,12 @@ exec $SHELL
 ```
 
 ## oh-my-zsh
+
+install
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 .zshrc file
 ```
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
