@@ -86,7 +86,10 @@ git clone https://github.com/romkatv/powerlevel10k.git
 
 ## VM & Wine
 ```bash
-sudo apt install wine-development
+sudo apt-get install wine-stable
+sudo apt-get install --install-recommends winehq-stable
+
+
 # virtualbox
 sudo apt install -y virtualbox
 sudo apt install -y install virtualbox-dkms
