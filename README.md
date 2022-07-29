@@ -77,7 +77,7 @@ plugins
 cd ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/darvid/zsh-poetry.git
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.giti
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zsh-users/zsh-completions
 git clone https://github.com/zsh-users/zsh-history-substring-search
 cd ~/.oh-my-zsh/custom/themes
