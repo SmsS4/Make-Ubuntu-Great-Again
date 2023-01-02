@@ -1,0 +1,27 @@
+// Put this file in ~/.local/share/TelegramDesktop/tdata
+// This is a list of your own shortcuts for Telegram Desktop
+// You can see full list of commands in the 'shortcuts-default.json' file
+// Place a null value instead of a command string to switch the shortcut off
+
+[
+    // {
+    //     "command": "close_telegram",
+    //     "keys": "ctrl+f4"
+    // },
+    // {
+    //     "command": "quit_telegram",
+    //     "keys": "ctrl+q"
+    // }
+	{
+        "command": "message_silently",
+        "keys": "ctrl+m"
+    },
+	{
+        "command": "message_silently",
+        "keys": "ctrl+s"
+    },
+	{
+        "command": "self_chat",
+        "keys": "ctrl+`"
+    }
+]
