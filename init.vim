@@ -1,3 +1,4 @@
+" You can use https://github.com/NvChad/NvChad instead
 :set number
 :set autoindent
 :set tabstop=4
